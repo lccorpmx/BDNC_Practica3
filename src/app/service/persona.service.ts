@@ -7,7 +7,7 @@ import { Persona } from '../models/persona.model';
   providedIn: 'root'
 })
 export class PersonaService {
-  private apiUrl = 'http://localhost:8081/BDNC_Practica03-0.0.1-SNAPSHOT/url'; // URL de tu API
+  private apiUrl = 'http://localhost:8084/BDNC_Practica03-0.0.1-SNAPSHOT/url'; // URL de tu API
 
   constructor(private http: HttpClient) {}
 
